@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nexhq/nex/main/registry/schema/package.schema.json",
+  "id": "kiran s.cache-view",
+  "name": "cache-view",
+  "version": "0.1.0",
+  "description": "Recovers images from browser cache",
+  "author": {
+    "name": "kiran s",
+    "github": "kiran s"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/kiran s/cache-view",
+  "runtime": {
+    "type": "python"
+  },
+  "entrypoint": "main.py",
+  "commands": {
+    "default": "python main.py",
+    "install": "pip install -r requirements.txt"
+  },
+  "keywords": []
+}
